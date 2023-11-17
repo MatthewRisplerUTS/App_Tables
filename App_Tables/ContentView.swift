@@ -17,6 +17,7 @@ struct ContentView: View {
             Button("Join") {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
             }
+            EditButton()
         }
         .padding()
     }
