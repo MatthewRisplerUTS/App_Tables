@@ -9,17 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Button("Join") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+        ZStack {
+            Rectangle()
+                .frame(width:350,height:120)
+                .foregroundColor(.white)
+                .cornerRadius(30)
+                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+            HStack{
+                VStack{
+                    Text("hi")
+                    Text("hi")
+                    Text("hi")
+                }
             }
-            EditButton()
         }
-        .padding()
     }
 }
 
