@@ -21,6 +21,9 @@ struct ContentView: View {
                     Text("hi")
                     Text("hi")
                 }
+                Image(.what)
+                    .resizable()
+                    .frame(width:120, height:120)
             }
         }
     }
