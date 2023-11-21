@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+       
         ZStack {
             RoundedRectangle(cornerRadius: 20)
                 .frame(width:350,height:150)
@@ -55,14 +56,7 @@ struct ContentView: View {
                     
             }
         }
-        ZStack {
-            Image(.what)
-                   .resizable()
-                   .aspectRatio(contentMode: .fit)
-                    .padding(.leading, 5)
-                    .padding(.top, 5)
-                    
-                }
+        
         
         DatePicker("Please enter a date", selection: /*@START_MENU_TOKEN@*/.constant(Date())/*@END_MENU_TOKEN@*/,
                            displayedComponents: .hourAndMinute)
