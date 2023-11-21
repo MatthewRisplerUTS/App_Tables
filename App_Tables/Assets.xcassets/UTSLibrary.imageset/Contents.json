@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "02_N7A9067_UTS Central_Andy Roberts_1900x1050.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
