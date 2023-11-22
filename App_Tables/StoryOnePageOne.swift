@@ -54,7 +54,7 @@ struct SwiftUIView: View {
                 ScrollView {
                     
                     
-                    Button {print("Ciao")} label: {
+                    Button {print("Hola")} label: {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width:350,height:150)
