@@ -11,7 +11,7 @@ struct StoryTwoPageThree: View {
     
     @State private var cell0 = ""
     @State private var cell1 = ""
-    
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
 
