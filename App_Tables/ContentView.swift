@@ -55,6 +55,13 @@ struct ContentView: View {
                     )
                     
             }
+            Button {
+                        print("Ciao")
+            } label: {
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(width:350,height:150)
+                    .foregroundColor(.green)
+                .opacity(0)}
         }
         
         
@@ -62,6 +69,16 @@ struct ContentView: View {
                            displayedComponents: .hourAndMinute)
                     .datePickerStyle(WheelDatePickerStyle())
                     .labelsHidden()
+        
+        
+        
+        Button {
+                    print("Ciao")
+        } label: {
+            RoundedRectangle(cornerRadius: 20)
+                .frame(width:350,height:150)
+                .foregroundColor(.green)
+            .opacity(0)}
         }
     }
 

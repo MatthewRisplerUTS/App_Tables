@@ -52,6 +52,7 @@ struct SwiftUIView: View {
                     .frame(height:2)
                     .offset(y:8)
                 List {
+                    
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
                             .frame(width:350,height:150)
@@ -95,8 +96,18 @@ struct SwiftUIView: View {
                                         topTrailingRadius: 20
                                     )
                                 )
-                        }  }.listRowSeparator(.hidden)
+                        }
+                        Button {
+                                    print("Ciao")
+                        } label: {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width:350,height:150)
+                                .foregroundColor(.green)
+                            .opacity(0)}
+                        
+                    }.listRowSeparator(.hidden)
                         .listRowBackground(Color(red: 0.93, green: 0.95, blue: 0.99))
+                    
                     
                     ZStack {
                         RoundedRectangle(cornerRadius: 20)
@@ -141,7 +152,16 @@ struct SwiftUIView: View {
                                         topTrailingRadius: 20
                                     )
                                 )
-                         }  }.listRowSeparator(.hidden)
+                        }
+                        Button {
+                                    print("Ciao")
+                        } label: {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width:350,height:150)
+                                .foregroundColor(.green)
+                            .opacity(0)}
+                        
+                    }.listRowSeparator(.hidden)
                         .listRowBackground(Color(red: 0.93, green: 0.95, blue: 0.99))
                     
                     ZStack {
@@ -187,7 +207,16 @@ struct SwiftUIView: View {
                                         topTrailingRadius: 20
                                     )
                                 )
-                        }  }.listRowSeparator(.hidden)
+                        }
+                        Button {
+                                    print("Ciao")
+                        } label: {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width:350,height:150)
+                                .foregroundColor(.green)
+                            .opacity(0)}
+                        
+                    }.listRowSeparator(.hidden)
                         .listRowBackground(Color(red: 0.93, green: 0.95, blue: 0.99))
                    
                     ZStack {
@@ -233,7 +262,16 @@ struct SwiftUIView: View {
                                         topTrailingRadius: 20
                                     )
                                 )
-                        }  }.listRowSeparator(.hidden)
+                        }
+                        Button {
+                                    print("Ciao")
+                        } label: {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width:350,height:150)
+                                .foregroundColor(.green)
+                            .opacity(0)}
+                        
+                    }.listRowSeparator(.hidden)
                         .listRowBackground(Color(red: 0.93, green: 0.95, blue: 0.99))
                     
                     
