@@ -14,11 +14,9 @@ struct StoryTwoPageThree: View {
     
     
     var body: some View {
-        
-  //          .ignoresSafeArea()
+
         ZStack{
             Rectangle()
-         //       .foregroundColor(Color(hue: 218, saturation: 03, brightness: 50))
                 .foregroundColor(Color(red: 0.93, green: 0.95, blue: 0.99))
                 .frame(width: 393, height:880)
             Rectangle()
@@ -40,6 +38,7 @@ struct StoryTwoPageThree: View {
                         topTrailingRadius: 30
                     )
                 )
+                .shadow(radius:5,x: 0,y: -5)
             
             Text("Where Specifically?")
                 .font(.title)
